@@ -1,0 +1,25 @@
+from turtle import Turtle
+
+
+class Score(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.r_score = 0
+        self.l_score = 0
+        self.color('white')
+        self.penup()
+        self.ht()
+        self.track_score()
+
+    def track_score(self):
+        self.clear()
+        self.goto(-100,200)
+        self.write(self.l_score,align="center",font=(("Courier",80,"normal")))
+        self.goto(100,200)
+        self.write(self.r_score, align="center", font=(("Courier", 80, "normal")))
+    def plus_left(self):
+        self.l_score+=1
+        self.track_score()
+    def plus_right(self):
+        self.r_score+=1
+        self.track_score()
