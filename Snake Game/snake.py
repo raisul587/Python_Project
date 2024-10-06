@@ -28,7 +28,14 @@ class Snake:
             self.snake_body[snake].goto(newx,newy)
         self.head.forward(DISTANCE)
 
-        
+    def reset(self):
+        for body in self.snake_body:
+            body.goto(1000,1000)
+        self.snake_body.clear ()
+        self.create_snake()
+        self.head = self.snake_body[0]
+        self.move()
+
     #intrigrating game with keyboard
     def up(self):
         if self.head.heading()!=270:
