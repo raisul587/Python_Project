@@ -19,8 +19,17 @@ while game_is_on:
     screen.update()
     car.create_car()
     car.move_car()
+    score.init_score()
+    #Detect Collision with Cars and Player
     for cars in car.all_cars:
         if player.distance(cars)<28:
             score.game_over()
             game_is_on=False
+
+    #control level
+    if player.ycor()>290:
+        player.goto_start()
+        car.increase_speed()
+        score.next_level()
+
 screen.exitonclick()
