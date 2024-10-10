@@ -25,6 +25,7 @@ while play:
     screen.update()
     time.sleep(0.1)
     snake.move()
+
     #detect collision with food
     if snake.head.distance(food) < 15:
         score.plus_score()
@@ -37,7 +38,7 @@ while play:
         snake.reset()
 
     if skip_initial_frames > 0:
-        skip_initial_frames -= 1
+        skip_initial_frames -= 1 #Giving a initial time to start the snake
     else:
         for body in snake.snake_body[1:]:
             if snake.head.distance(body) < 10:
