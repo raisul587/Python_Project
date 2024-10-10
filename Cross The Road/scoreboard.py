@@ -1,6 +1,6 @@
 from turtle import Turtle, Screen
 FONT = ("Courier", 24, "bold")
-LEVEL = 0
+LEVEL = 1
 
 class Score(Turtle):
     def __init__(self):
@@ -9,6 +9,7 @@ class Score(Turtle):
         self.penup()
         self.ht()
 
+#initially setting the score position
     def init_score(self):
         self.goto(-280, 280)
         self.write(f"Level: {self.level}",FONT)
