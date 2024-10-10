@@ -11,7 +11,7 @@ screen.setup(width=600, height=600)
 screen.tracer(0)
 score = Score()
 
-#Setting the Keyboard button to control player
+#Setting up the Keyboard button to control player
 screen.listen()
 screen.onkeypress(player.move,"Up")
 
