@@ -1,9 +1,9 @@
 from turtle import Screen
+import time
 from draw import Draw
 from paddle import Paddle
 from ball import Ball
 from score import Score
-import time
 
 # Set up the screen
 screen = Screen()
