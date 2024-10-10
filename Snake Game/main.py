@@ -38,7 +38,7 @@ while play:
         snake.reset()
 
     if skip_initial_frames > 0:
-        skip_initial_frames -= 1 #Giving a initial time to start the snake
+        skip_initial_frames -= 1 #Giving the snake initial time to start move
     else:
         for body in snake.snake_body[1:]:
             if snake.head.distance(body) < 10:
