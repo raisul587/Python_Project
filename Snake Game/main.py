@@ -34,9 +34,7 @@ while play:
     if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
         score.reset_score()
         snake.reset()
-        # play = False
-        # score.game_over()
-    #detect collision with tail/body
+
     if skip_initial_frames > 0:
         skip_initial_frames -= 1
     else:
@@ -44,7 +42,6 @@ while play:
             if snake.head.distance(body) < 10:
                 score.reset_score()
                 snake.reset()
-                # play = False
-                # score.game_over()
+
 
 screen.exitonclick()
