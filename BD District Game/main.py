@@ -9,8 +9,6 @@ screen.addshape(bd_map)
 turtle.shape(bd_map)
 
 
-
-
 df = pd.read_csv("Bangladesh_District.csv")
 all_district = df["District"].to_list()
 
@@ -19,7 +17,7 @@ missed_district = []
 while len(already_guessed) < 64:
     answer = screen.textinput(f"{len(already_guessed)}/64 Correct", "Guess a District Name")
     if answer is None:  # Check if the user closed the dialog
-        break  # Exit the loop if no input was given
+        break
     answer = answer.title()
 
     if answer == "Exit":
