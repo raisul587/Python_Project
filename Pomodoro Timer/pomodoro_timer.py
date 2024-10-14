@@ -1,5 +1,6 @@
 from tkinter import *
 import math
+from tkinter import messagebox
 
 # ---------------------------- CONSTANTS ------------------------------- #
 
@@ -27,9 +28,9 @@ def reset_timer():
 def start_timer():
     global COUNT_TRACKER
     COUNT_TRACKER += 1
-    work_sec = WORK_MIN * 60
-    short_break_sec = SHORT_BREAK_MIN * 60
-    long_break_sec = LONG_BREAK_MIN * 60
+    work_sec = WORK_MIN* 60
+    short_break_sec = SHORT_BREAK_MIN* 60
+    long_break_sec = LONG_BREAK_MIN* 60
 
     if COUNT_TRACKER % 8 == 0:
         count_down(long_break_sec)
