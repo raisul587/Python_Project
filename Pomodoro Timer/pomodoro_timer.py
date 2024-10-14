@@ -66,7 +66,7 @@ def count_down(count):
         check_mark_label.config(text=mark)
 
 
-# ---------------------------- BREAK REMINDERS ------------------------------- #
+# ----------------------------REMINDER MESSAGE ------------------------------- #
 
 def remind_break(message):
     messagebox.showinfo("Break Reminder", message)
