@@ -6,9 +6,8 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 
 ## Features
 
-- **Work and Break Sessions**: Customizable durations for work sessions and breaks.
-- **Break Reminders**: Notifications to remind you to take breaks.
-- **Progress Tracking**: Visual indicators for completed work sessions.
+Just start the timer, it will auto popup when it's time to take a break
+
 
 ## Screenshots
 
