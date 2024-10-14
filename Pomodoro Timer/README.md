@@ -12,10 +12,10 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 
 ## Screenshots
 
-![Interface](screenshot/ss_interface.png)
+![Interface](screenshot/Interface.png)
 *Main Interface of the Pomodoro Timer*
 
-![Break Reminder](screenshot/ss_break_popup.png)
+![Break Reminder](screenshot/Popup_Break_Time.png)
 *Break Reminder Notification*
 
 ## How to Run Locally
