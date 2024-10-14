@@ -12,9 +12,11 @@ Just start the timer, it will auto popup when it's time to take a break
 ## Screenshots
 
 ![Interface](screenshot/Interface.png)
+
 *Main Interface of the Pomodoro Timer*
 
 ![Break Reminder](screenshot/Popup_Break_Time.png)
+
 *Break Reminder Notification*
 
 ## How to Run Locally
