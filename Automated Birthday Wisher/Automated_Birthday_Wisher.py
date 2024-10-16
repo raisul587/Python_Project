@@ -3,13 +3,8 @@ import pandas as pd
 import smtplib
 import random
 
-# Get today's date (month, day)
-today = (dt.datetime.now().month, dt.datetime.now().day)
-
-# Read the birthday data
+today = (dt.datetime.now().month, dt.datetime.now().day) # Get today's date (month, day)
 birthday_data = pd.read_csv("birthdays.csv")
-
-# Create a dictionary with (month, day) as keys, and a list of birthday persons as values
 birthday_dict = {}
 for index, row in birthday_data.iterrows():
     key = (row["month"], row["day"])
