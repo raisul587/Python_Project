@@ -11,6 +11,7 @@ This Python script automatically sends birthday wishes via email based on a CSV 
 ## Requirements
 Make sure you have the following libraries installed:
 - `pandas`
+- `random` (part of the Python standard library)
 - `smtplib` (part of the Python standard library)
 - `datetime` (part of the Python standard library)
 
