@@ -11,7 +11,8 @@ MY_LNG = #Your Longitude
 TIME_ZONE = #Your Time Zone (eg."Asia/Dhaka")
 MY_POSITION = (MY_LAT,MY_LNG)
 
-def iss_overhead():
+#check if the iss is coming
+def iss_coming():
     iss_response = r.get(url="http://api.open-notify.org/iss-now.json")
     iss_data = iss_response.json()
     iss_lat=  float(iss_data["iss_position"]["latitude"])
@@ -37,8 +38,9 @@ def is_dark():
     time_now = dt.datetime.now().hour
     if time_now>=sunset_hour or time_now<=sunrise_hour:
         return True
+
 while True:
-    if iss_overhead() and is_dark():
+    if iss_coming() and is_dark():
         with smtp.SMTP("smtp.gmail.com",port=587) as connection:
             connection.starttls()
             connection.login(user=EMAIL,password=PASSWORD)
