@@ -8,7 +8,7 @@ EMAIL = "Your Email"
 PASSWORD = "Your Password"
 MY_LAT = #Your Latitude
 MY_LNG = #Your Longitude
-TIME_ZONE = "Asia/Dhaka"
+TIME_ZONE = #Your Time Zone (eg."Asia/Dhaka")
 MY_POSITION = (MY_LAT,MY_LNG)
 
 def iss_overhead():
