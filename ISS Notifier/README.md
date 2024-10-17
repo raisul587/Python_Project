@@ -24,7 +24,7 @@ Before you run the script, make sure you have the following:
   You can install the required libraries using the command:
   ```bash
   pip install requests haversine
-```
+  ```
 
 ## Get in Touch
 
