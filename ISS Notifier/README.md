@@ -26,6 +26,8 @@ Before you run the script, make sure you have the following:
   pip install requests haversine
 ```
 
+## Get in Touch
+
 If you have any questions, suggestions, or feedback, feel free to reach out.
 
 You can contact me via:
