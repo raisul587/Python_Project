@@ -30,7 +30,7 @@ while game_is_on:
             score.game_over()
             game_is_on=False
 
-    #Upgrade level
+    #Upgrade game level
     if player.ycor()>290:
         player.goto_start()
         car.increase_speed()
