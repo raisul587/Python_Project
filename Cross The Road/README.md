@@ -2,14 +2,6 @@
 
 Welcome to the **Turtle Crossing Game**! This is a simple arcade-style game created using Python's Turtle module. The objective of the game is to help the turtle cross the road while avoiding incoming cars. As the player progresses, the game becomes more challenging with increased car speed.
 
-## Table of Contents
-- [Game Preview](#game-preview)
-- [Features](#features)
-- [How to Play](#how-to-play)
-- [Game Rules](#game-rules)
-- [Dependencies](#dependencies)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ## Game Preview
 ![Game Preview](cross_the_road.gif) <!-- You can replace this placeholder with an actual screenshot or gif of the game. -->
