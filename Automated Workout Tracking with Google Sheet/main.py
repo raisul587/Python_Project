@@ -61,7 +61,7 @@ if "exercises" in result:
         # Send POST request to Sheety to log workout data in Google Sheets
         sheet_response = r.post(sheet_endpoint, json=sheet_inputs, auth=(user, password))
 
-        # Sheety response for each exercise logged
+        # Sheety API response for each exercise logged
         print(sheet_response.text)
 
     print("All exercises processed.")
