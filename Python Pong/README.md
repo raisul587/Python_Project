@@ -8,10 +8,7 @@ Welcome to the classic **Pong Arcade Game** recreated in Python using the Turtle
 - [Requirements](#requirements)
 - [How to Play](#how-to-play)
 - [Project Structure](#project-structure)
-- [Future Improvements](#future-improvements)
-- [Acknowledgements](#acknowledgements)
 
----
 
 ## Game Preview 🎥
 <img src="pong_preview.gif" alt="Pong Game Preview" width="600">
@@ -55,4 +52,14 @@ The code is organized into the following files:
 ├── paddle.py       # Paddle class to control player paddle movement
 ├── score.py        # Score class to keep track and display player scores
 ├── draw.py         # Draw class to create the center line design
+```
+## Connect with Me
+If you have any questions, suggestions, or feedback, feel free to reach out.
 
+You can contact me via:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/contact-raisul)
+
+[![Facebook](https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook)](https://facebook.com/raisul.anonymous)
+
+I'm always open to discussions and collaborations.
